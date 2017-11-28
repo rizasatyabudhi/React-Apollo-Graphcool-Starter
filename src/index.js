@@ -10,7 +10,7 @@ import "tachyons";
 
 // __SIMPLE_API_ENDPOINT__ looks like: 'https://api.graph.cool/simple/v1/__SERVICE_ID__'
 const httpLink = new HttpLink({
-  uri: "__SIMPLE_API_ENDPOINT"
+  uri: "__SIMPLE_API_ENDPOINT__"
 });
 
 const client = new ApolloClient({
